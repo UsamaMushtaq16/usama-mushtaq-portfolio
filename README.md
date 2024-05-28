@@ -1,5 +1,3 @@
-![Portfolio](https://res.cloudinary.com/lifecodes/image/upload/v1678684352/Portfolio/l7b1gz61rh3hgoz5qzta.png)
-
 <div align="center">
   &middot;
   <i>Next Portfolio built in Next.js + TypeScript + Tailwind CSS + Firebase</i>
@@ -74,28 +72,7 @@ Here are the steps to run the portfolio locally.
    ```bash
    npm i
    ```
-
-4. Create a Firebase project and select the web app
-
-5. Create an `.env.local` file in the root directory, and add the following variables with your firebase config:
-   ```
-   SENDGRID_API_KEY=XXXXXXXX
-   NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
-   MAIL_FROM=YOUR_MAIL_ID
-   MAIL_TO=YOUR_MAIL_ID
-   ```
-   <!-- write text to tell user to get sendgrid keys from dashboard and add here -->
-
-> **Note**: `SENDGRID_API_KEY` - Create an API key from "Settings" -> "API Keys" with "Restricted Access" to only "Mail Send"
-
-1. Update the sample [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) provided, with your data or directly import the same and edit using firebase later. (For storing images you can use [Cloudinary](https://cloudinary.com) or [Firebase Storage](https://firebase.google.com/docs/storage))
-
-2. Import json data
-
-   - Go to [Firebase Console](https://console.firebase.google.com) and select your project
-   - Go to "Database" -> "Realtime Database" -> "Import JSON" and import the [data.json](https://github.com/jigar-sable/next-portfolio/blob/main/data.json) file
-
-3. Run the project
+4. Run the project
 
    ```bash
    npm run dev
@@ -107,14 +84,7 @@ Here are the steps to run the portfolio locally.
 
 2. Select the forked repository and deploy
 
-3. Add the following environment variables in the Vercel dashboard:
-   ```
-   SENDGRID_API_KEY=XXXXXXXX
-   NEXT_PUBLIC_FIREBASE_DATABASE_URL=XXXXXXXXXX
-   MAIL_FROM=YOUR_MAIL_ID
-   MAIL_TO=YOUR_MAIL_ID
-   ```
-4. Hurray! You successfully deployed the portfolio🥳
+3. Hurray! You successfully deployed the portfolio🥳
 
 ## License 📄
 
