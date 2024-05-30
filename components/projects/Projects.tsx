@@ -30,7 +30,7 @@ const Projects = ({ projectsData }: Props) => {
 
             {filteredProjects.length > 6
                 &&
-                <ViewAll scrollTo='projects' title={viewAll ? 'Okay, I got it' : 'View All'} handleClick={() => setViewAll(!viewAll)} />
+                <ViewAll scrollTo='projects' title={viewAll ? 'View Less' : 'View All'} handleClick={() => setViewAll(!viewAll)} />
             }
         </SectionWrapper>
     )

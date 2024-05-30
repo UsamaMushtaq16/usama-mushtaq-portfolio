@@ -48,7 +48,7 @@ const Experiences = ({ experienceData, educationData }: Props) => {
             </div>
 
             {(show === "Experience" ? experiences : educations).length > 2 &&
-                <ViewAll scrollTo='experience' title={viewAll ? 'Okay, I got it' : 'View All'} handleClick={() => setViewAll(!viewAll)} />
+                <ViewAll scrollTo='experience' title={viewAll ? 'View Less' : 'View All'} handleClick={() => setViewAll(!viewAll)} />
             }
 
         </SectionWrapper>
