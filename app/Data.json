@@ -130,38 +130,6 @@
           "video": "",
           "visit": "https://noshly.io/"
         }
-      },
-      {
-        "name": "Idea Engine",
-        "techstack": "HTML5, CSS3, JavaScript, jQuery",
-        "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-        "links": {
-          "code": "",
-          "video": "",
-          "visit": "www.facebook.com"
-        }
-      },
-      {
-        "name": "Project Title",
-        "techstack": "Flutter, Dart, Firebase",
-        "category": "Flutter",
-        "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-        "links": {
-          "code": "",
-          "video": "",
-          "visit": ""
-        }
-      },
-      {
-        "name": "Project Title",
-        "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-        "category": "LAMP Stack",
-        "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-        "links": {
-          "code": "",
-          "video": "",
-          "visit": ""
-        }
       }
     ],
     "educations": [
