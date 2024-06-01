@@ -27,7 +27,7 @@ const HomePage = ({ data }: Props) => {
             <Experiences experienceData={data.experiences} educationData={data.educations} />
             {/* <Contact /> */}
             {/* <CallToAction /> */}
-            <Footer socials={data.socials} name={data.main.name} />
+            {data.socials && <Footer socials={data.socials} name={data.main.name} />}
         </>
     )
 }

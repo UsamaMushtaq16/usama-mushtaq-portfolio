@@ -1,6 +1,7 @@
+'use client'
+
 import React from 'react';
 import Link from 'next/link';
-import * as Fa from 'react-icons/fa';
 import { social } from '@/types/main';
 // import { IconType } from '../node_modules/react-icons/lib'
 

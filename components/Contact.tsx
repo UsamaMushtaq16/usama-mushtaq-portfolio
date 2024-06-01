@@ -1,3 +1,5 @@
+'use client'
+
 import axios from "axios";
 import { useState } from "react";
 import { BiLoaderAlt } from "react-icons/bi";

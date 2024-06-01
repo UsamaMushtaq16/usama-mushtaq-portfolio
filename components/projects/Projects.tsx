@@ -1,3 +1,5 @@
+'use client'
+
 import { project } from "@/types/main";
 import { useEffect, useState } from "react";
 import { Link } from "react-scroll";

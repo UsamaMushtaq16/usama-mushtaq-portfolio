@@ -1,3 +1,5 @@
+'use client'
+
 import { project } from "@/types/main"
 import Image from "next/image"
 import Link from "next/link"
@@ -11,7 +13,7 @@ const cardVariants = {
     visible: { y: 0, opacity: 1, transition: { duration: 0.6, ease: 'easeInOut' } }
 };
 
-const Project = ({ name, image, category, techstack, links }: project) => {
+const Project = ({ name, image, links }: project) => {
 
     const [ref, inView] = useInView({
         threshold: 0.2,
@@ -51,7 +53,6 @@ const Project = ({ name, image, category, techstack, links }: project) => {
 
             <div className="my-2 flex flex-col gap-3">
                 <h3 className="text-xl font-medium">{name}</h3>
-                <p className="text-sm text-gray-400"> <span className="font-medium">Tech Stack:</span> {techstack}</p>
             </div>
 
         </motion.div>

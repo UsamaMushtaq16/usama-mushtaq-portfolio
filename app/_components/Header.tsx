@@ -6,7 +6,8 @@ import { Link as ScrollLink } from 'react-scroll'
 import { FiSun, FiMoon } from 'react-icons/fi'
 import { FaNodeJs } from 'react-icons/fa'
 import { CgClose, CgMenuRight } from 'react-icons/cg'
-import logoIcon from '../public/logo.gif';
+
+import logoIcon from '../../public/logo.gif';
 import Image from 'next/image';
 
 export default function Header({ logo }: { logo: string }) {

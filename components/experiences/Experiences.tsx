@@ -1,3 +1,5 @@
+'use client'
+
 import { education, experience } from "@/types/main"
 import { useState } from "react"
 import { ViewAll } from "../projects/Projects"

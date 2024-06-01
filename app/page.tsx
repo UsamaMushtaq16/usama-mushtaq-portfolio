@@ -1,10 +1,8 @@
 import { FaNodeJs } from "react-icons/fa"
-import HomePage from "./HomePage"
+import HomePage from "./_components/HomePage"
 import data from "./Data.json"
 
 export default async function page() {
-
-  // const data = await getData()
 
   return (
     <>

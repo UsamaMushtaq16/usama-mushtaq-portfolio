@@ -1,3 +1,5 @@
+'use client'
+
 import { MdSchool, MdWork } from 'react-icons/md'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';

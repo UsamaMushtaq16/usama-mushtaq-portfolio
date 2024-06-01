@@ -7,8 +7,6 @@ type skill = {
 type project = {
     name: string,
     image: string,
-    techstack: string,
-    category: string,
     links: {
         visit: string,
         code: string,
@@ -19,16 +17,14 @@ type project = {
 type experience = {
     company: string,
     position: string,
-    startDate: string,
-    endDate: string,
+    duration: string,
     desc: string[]
 }
 
 type education = {
     institute: string,
     degree: string,
-    startDate: string,
-    endDate: string,
+    duration: string,
 }
 
 type main = {
@@ -61,7 +57,7 @@ type data = {
     projects: project[],
     experiences: experience[],
     educations: education[]
-    socials: social[]
+    socials?: social[]
 }
 
 export type { data, main, about, skill, project, experience, education, social };

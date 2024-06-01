@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react';
 import { skill } from '@/types/main';
 import SkillCard from "./SkillCard"
