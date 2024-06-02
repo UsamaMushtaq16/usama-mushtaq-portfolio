@@ -104,7 +104,7 @@
       {
         "name": "Idea Engine",
         "techstack": "Node.js, Social Media Management Analytics, MongoDB, AWS Lambda, API Integration",
-        "image": "/../public/idea-engine.png",
+        "image": "/../public/idea-engine.jpg",
         "links": {
           "code": "",
           "video": "",
@@ -114,7 +114,7 @@
       {
         "name": "My Chauffeur",
         "techstack": "React, Node.js, MongoDB",
-        "image": "/../public/my-chauf.png",
+        "image": "/../public/my-chauf.jpg",
         "links": {
           "code": "",
           "video": "",
@@ -124,7 +124,7 @@
       {
         "name": "Noshly",
         "techstack": "Node.js, Next.js, MongoDB, OAuth, Stripe, Twillio",
-        "image": "/../public/noshly.png",
+        "image": "/../public/noshly.jpg",
         "links": {
           "code": "",
           "video": "",
