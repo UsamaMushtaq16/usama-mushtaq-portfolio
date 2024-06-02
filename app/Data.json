@@ -5,9 +5,9 @@
       "titles": [
         "Full Stack Development",
         "Frontend Development",
-        "Backend Development"
+        "Backend1 Development"
       ],
-      "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+      "heroImage": "/heroImage.gif",
       "techStackImages": [
         "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000001",
         "https://img.icons8.com/?size=100&id=t4YbEbA834uH&format=png&color=000000",
@@ -16,7 +16,7 @@
       ]
     },
     "about": {
-      "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+      "aboutImage": "/aboutProfile.jpg",
       "aboutImageCaption": "Let's Build Dreams Together",
       "title": "Full Stack Developer",
       "about": "I have more than 4 years of full-stack programming experience, and As a proficient Full-Stack developer of MERN, I have experience creating scalable and maintainable web applications. I have a solid history in developing online applications utilising Node.js/Nest, Express.js, React.js, Next.js, and MongoDB. I am dedicated to providing high-quality code that satisfies the needs of my clients, and I am constantly searching for fresh challenges to advance my abilities.",
@@ -26,85 +26,90 @@
     "skills": [
       {
         "name": "HTML",
-        "image": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000",
-        "category": "Frontend"
+        "image": "https://img.icons8.com/?size=100&id=EAUyKy3IwmqM&format=png&color=000000"
       },
       {
         "name": "CSS",
-        "image": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000",
-        "category": "Frontend"
-      },
-      {
-        "name": "JavaScript",
-        "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
-        "category": "Frontend"
-      },
-      {
-        "name": "React js",
-        "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
-        "category": "Frontend"
-      },
-      {
-        "name": "Next.js",
-        "image": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000",
-        "category": "Frontend"
+        "image": "https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
       },
       {
         "name": "Tailwind CSS",
-        "image": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
-        "category": "Frontend"
+        "image": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000"
+      },
+      {
+        "name": "Material UI",
+        "image": "https://v4.material-ui.com/static/logo.png"
       },
       {
         "name": "Bootstrap",
-        "image": "https://img.icons8.com/?size=100&id=84710&format=png&color=000000",
-        "category": "Frontend"
+        "image": "https://img.icons8.com/?size=100&id=84710&format=png&color=000000"
+      },
+      {
+        "name": "JavaScript",
+        "image": "https://img.icons8.com/color/144/null/javascript--v1.png"
       },
       {
         "name": "TypeScript",
-        "image": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000",
-        "category": "Backend"
+        "image": "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000"
+      },
+      {
+        "name": "React js",
+        "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000"
+      },
+      {
+        "name": "Next.js",
+        "image": "https://img.icons8.com/?size=100&id=yUdJlcKanVbh&format=png&color=000000"
       },
       {
         "name": "Node.js",
-        "image": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
-        "category": "Backend"
+        "image": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
       },
       {
         "name": "NestJS",
-        "image": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000000",
-        "category": "Backend"
+        "image": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000000"
       },
       {
         "name": "Express JS",
-        "image": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
-        "category": "Backend"
+        "image": "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000"
       },
       {
         "name": "MongoDB",
-        "image": "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000",
-        "category": "Backend"
+        "image": "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
       },
       {
         "name": "SQL",
-        "image": "https://img.icons8.com/?size=100&id=3767&format=png&color=000000",
-        "category": "Backend"
+        "image": "https://img.icons8.com/?size=100&id=3767&format=png&color=000000"
       },
       {
         "name": "PostgreSQL",
-        "image": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000",
-        "category": "Backend"
+        "image": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000"
       },
       {
         "name": "Firebase",
-        "image": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000",
-        "category": "Backend"
+        "image": "https://img.icons8.com/?size=100&id=62452&format=png&color=000000"
+      },
+      {
+        "name": "AWS",
+        "image": "https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
+      },
+      {
+        "name": "Azure",
+        "image": "https://img.icons8.com/?size=100&id=81727&format=png&color=000000"
+      },
+      {
+        "name": "Google Cloud",
+        "image": "https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000"
+      },
+      {
+        "name": "Digital Ocean",
+        "image": "https://img.icons8.com/?size=100&id=113621&format=png&color=000000"
       }
     ],
     "projects": [
       {
         "name": "Idea Engine",
-        "techstack": "Node.js, Social Media Management Analytics, MongoDB, AWS Lambda, API Integration",
-        "image": "/idea-engine.jpg",
+        "techstack": "Node.js, Social Media Analytics, MongoDB, AWS ",
+        "image": "/idea-engine.png",
         "links": {
           "code": "",
           "video": "",
@@ -113,8 +118,8 @@
       },
       {
         "name": "My Chauffeur",
-        "techstack": "React, Node.js, MongoDB",
-        "image": "/my-chauf.jpg",
+        "techstack": "React, Node.js, MongoDB, Azure, Stripe ",
+        "image": "/my-chauf.png",
         "links": {
           "code": "",
           "video": "",
@@ -123,8 +128,8 @@
       },
       {
         "name": "Noshly",
-        "techstack": "Node.js, Next.js, MongoDB, OAuth, Stripe, Twillio",
-        "image": "/noshly.jpg",
+        "techstack": "Node.js, Next.js, MongoDB, OAuth, Twillio ",
+        "image": "/noshly.png",
         "links": {
           "code": "",
           "video": "",

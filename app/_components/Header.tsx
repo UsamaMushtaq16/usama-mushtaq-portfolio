@@ -24,7 +24,7 @@ export default function Header({ logo }: { logo: string }) {
     }, [])
 
 
-    const navs = ['home', 'about', 'projects', 'experience',]
+    const navs = ['home', 'projects', 'services', 'about', 'experience',]
 
     return (
         <header className={`backdrop-filter backdrop-blur-lg ${scroll ? 'border-b bg-white bg-opacity-40' : 'border-b-0'} dark:bg-grey-900 dark:bg-opacity-40 border-gray-200 dark:border-b-0 z-30 min-w-full flex flex-col fixed`}>
@@ -60,11 +60,11 @@ export default function Header({ logo }: { logo: string }) {
             <nav className='p-4 flex sm:hidden items-center justify-between'>
                 {logo === 'Usama' ? <FaNodeJs size={28} /> : <span className='text-lg font-medium'>{logo.split(' ')[0]}</span>}
                 <div className='flex items-center gap-4'>
-                    <span
+                    {/* <span
                         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
                         className='bg-gray-100 dark:bg-violet-700 p-1.5 rounded-full cursor-pointer transition-colors'>
                         {theme === 'dark' ? <FiSun /> : <FiMoon />}
-                    </span>
+                    </span> */}
                     <CgMenuRight size={20} onClick={() => setNavCollapse(false)} />
                 </div>
             </nav>
@@ -75,7 +75,7 @@ export default function Header({ logo }: { logo: string }) {
                 <div className="flex flex-col p-4 gap-5 bg-gray-100/95 backdrop-filter backdrop-blur-sm dark:bg-grey-900/95 w-3/4">
                     <CgClose className='self-end my-2' size={20} onClick={() => setNavCollapse(true)} />
 
-                    {navs.slice(0, 4).map((e) => (
+                    {navs.slice(0, 5).map((e) => (
                         <ScrollLink
                             key={e}
                             className='hover:text-purple-600 py-1.5 px-4 rounded transition-colors capitalize cursor-pointer'
@@ -89,15 +89,6 @@ export default function Header({ logo }: { logo: string }) {
                             {e}
                         </ScrollLink>
                     ))}
-                    <ScrollLink
-                        to='contact'
-                        offset={-60}
-                        smooth={true}
-                        duration={500}
-                        onClick={() => setNavCollapse(true)}
-                        className='px-6 py-1.5 rounded-md bg-violet-600 hover:bg-violet-700 text-white text-center'>
-                        Contact
-                    </ScrollLink>
                 </div>
             </div>
 

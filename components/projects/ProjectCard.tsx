@@ -26,10 +26,10 @@ const Project = ({ name, image, techstack, links }: project) => {
             variants={cardVariants}
             initial='hidden'
             animate={inView ? 'visible' : 'hidden'}
-            className="flex flex-col gap-2 bg-white dark:bg-grey-800 rounded-lg p-4 shadow-sm">
+            className="flex flex-col gap-2 bg-white dark:bg-grey-800 rounded-lg shadow-lg overflow-hidden">
 
             <div className="relative group rounded-lg bg-violet-50">
-                <Image alt={name} width={1000} height={1000} className="max-w-full h-48 max-h-full object-cover object-top rounded-lg" src={image} />
+                <Image alt={name} width={1000} height={1000} className="max-w-full h-48 max-h-full object-cover object-top" src={image} />
                 {(links.visit.trim() || links.code.trim() || links.video.trim()) &&
                     <div className="absolute top-0 scale-x-0 group-hover:scale-100 transition-transform origin-left duration-200 ease-linear bg-gray-800 bg-opacity-60 w-full h-full rounded-lg flex items-center gap-4 justify-center">
                         {links.visit.trim() &&
@@ -51,9 +51,9 @@ const Project = ({ name, image, techstack, links }: project) => {
                 }
             </div>
 
-            <div className="my-2 flex flex-col gap-3">
+            <div className="px-2 my-2 flex flex-col gap-3">
                 <h3 className="text-xl font-medium">{name}</h3>
-                <p className="text-sm text-gray-400"> <span className="font-medium">Tech Stack:</span> {techstack}</p>
+                <p className="text-sm text-gray-600"> <span className="font-bold">Tech Stack:</span> {techstack}</p>
             </div>
 
         </motion.div>

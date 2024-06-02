@@ -1,7 +1,6 @@
 type skill = {
     name: string,
-    image: string,
-    category: string
+    image: string
 }
 
 type project = {

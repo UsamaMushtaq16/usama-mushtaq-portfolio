@@ -5,7 +5,7 @@ import Link from "next/link";
 import React from "react";
 
 
-export default function Footer({ socials, name }: { socials: social[], name: string }) {
+export default function Footer() {
 
     const { theme } = useTheme()
 
