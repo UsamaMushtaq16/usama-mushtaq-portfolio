@@ -5,7 +5,7 @@
       "titles": [
         "Full Stack Development",
         "Frontend Development",
-        "Backend1 Development"
+        "Backend Development"
       ],
       "heroImage": "/heroImage.gif",
       "techStackImages": [
@@ -106,6 +106,36 @@
       }
     ],
     "projects": [
+      {
+        "name": "Next Auth Service",
+        "techstack": "Next.js, Node.js, Next Auth, MongoDB",
+        "image": "/next-auth.png",
+        "links": {
+          "code": "",
+          "video": "",
+          "visit": "https://oauth-with-next-auth.vercel.app/"
+        }
+      },
+      {
+        "name": "CryptoCO",
+        "techstack": "React, Chakra UI, API Integration, Real Time Analytics ",
+        "image": "/crypto-co.png",
+        "links": {
+          "code": "",
+          "video": "",
+          "visit": "https://cryptoco.vercel.app/"
+        }
+      },
+      {
+        "name": "RtBoard",
+        "techstack": "Next.js, Node.js, MongoDB, Github Auth, Vercel ",
+        "image": "/rt-board.png",
+        "links": {
+          "code": "",
+          "video": "",
+          "visit": "https://miro-realtime-board.vercel.app/"
+        }
+      },
       {
         "name": "Idea Engine",
         "techstack": "Node.js, Social Media Analytics, MongoDB, AWS ",

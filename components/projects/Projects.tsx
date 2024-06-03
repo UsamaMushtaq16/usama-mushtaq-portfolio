@@ -20,7 +20,7 @@ const Projects = ({ projectsData }: Props) => {
     const [viewAll, setViewAll] = useState(false)
 
     return (
-        <SectionWrapper id="projects" className="bg-white pt-16 mx-2 md:mx-0 min-h-screen">
+        <SectionWrapper id="projects" className="bg-white py-16 mx-2 md:mx-0 min-h-screen">
             <h2 className="text-4xl text-center">Projects</h2>
 
             <div className="md:mx-6 lg:mx-auto lg:w-5/6 2xl:w-3/4 my-4 md:my-8 mx-auto grid md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-10">
